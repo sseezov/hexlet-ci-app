@@ -12,7 +12,7 @@ jobs:
           # Клонируем репозиторий
           - uses: actions/checkout@v2
           # Устанавливаем Node.js
-          - uses: actions/setup-node@v1
+          - uses: actions/setup-node@v18
           # Ставим зависимости
           - run: make setup
           # Запускаем линтер
